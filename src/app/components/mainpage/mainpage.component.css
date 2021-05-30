@@ -1,0 +1,27 @@
+#naturaWord{
+    margin-top: 30px;
+    
+}
+#mainBanner{
+    margin-bottom: 30px;
+    
+}
+#mainpage{
+    
+    background-color:#222222;
+}
+
+.imageCarrusel{
+    max-width: 100%;
+    height: 450px;
+
+}
+@media (max-width: 768px) {
+    
+    .imageCarrusel{
+        max-width: 100%;
+        height: 150px;
+    
+    }
+}
+

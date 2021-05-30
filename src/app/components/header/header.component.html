@@ -1,0 +1,28 @@
+<body style="background-color: white;">
+  <div class="container ">
+    <header class="blog-header py-3 ">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1 justify-content-center align-items-center align-items-center ">
+          <a class="blog-header-logo text-dark" href="#">Consultora Natura</a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <a class="link-secondary" data-bs-toggle="collapse" href="#collapseRegion" role="button" aria-expanded="true" aria-controls="collapseRegion">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="collapse" id="collapseRegion">
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-center">
+          <a class="p-2 link-secondary text-dark" type ="button" routerLink="/productos"  [routerLinkActive]="'active'"><h6>Productos</h6></a>
+          <a class="p-2 link-secondary text-dark"  type ="button" routerLink="/contacto"  [routerLinkActive]="'active'"><h6>Contacto</h6></a>
+          <a class="p-2 link-secondary text-dark"  type ="button" routerLink="/acercaDe" [routerLinkActive]="'active'"><h6>Acerca De</h6></a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+
